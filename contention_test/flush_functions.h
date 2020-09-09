@@ -165,3 +165,7 @@ inline void pmem_persist(const void *addr, size_t len) {
 
     //_mm_mfence();
 }
+
+inline void printAddr(long long addr) {
+	printf("%p\n", addr);
+}
